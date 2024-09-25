@@ -1,49 +1,77 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <meta name="description" content="PepsiNitro, the place for games and stuff">
-        <meta name="keywords" content="pwa" >
-        <meta name="mobile-web-app-capable" content="yes">
-        <meta name="author" content="PepsiNitro" />
-        <meta name="copyright" content="Me" />
-        <meta name="robots" content="follow"/>
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="PepsiNitro Games">
-        <meta property="og:url" content="">
-        <meta property="og:image:secure_url" itemprop="image" content="https://pepsinitro.github.io/assets/img/logo.png">
-        <meta property="og:image" itemprop="image" content="https://pepsinitro.github.io/assets/img/logo.png">
-        <meta property="og:image:width" content="1000" />
-        <meta property="og:image:height" content="1000" />
-        <meta property="og:image:alt" content="e" />
-        <meta property="og:description" content="PepsiNitro, the place for games and stuff">
-        <meta property="og:site_name" content="PepsiNitro">
-        <meta name="fragment" content="!">
-        <link rel=icon sizes=192x192 href="assets/img/logo-192.png">
-        <meta name="theme-color" content="#000000" />
-    <title>PepsiNitro | Games</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="Cat-Nitro, the place for games, cats, and stuff">
+    <meta name="keywords" content="pwa">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="author" content="Cat-Nitro">
+    <meta name="copyright" content="CatMan">
+    <meta name="robots" content="follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Cat-Nitro Games">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="Cat-Nitro, the place for games, cats, and stuff">
+    <meta name="theme-color" content="#000000">
+    <title>Cat-Nitro | Games</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/1282430860833849428/1288280281240829994/favicon.ico?ex=66f49c02&is=66f34a82&hm=bb0a6f0ccb43700d6f1c5a8787e5bef04e298e90b9ec9f97c569542498f45c0b&">
     <link rel="manifest" href="manifest.json">
-        <style>
-            :root{
-                --theme:#000000;
+    <link rel="stylesheet" href="assets/css/css.css">
+    <style>
+        :root {
+            --theme: #000000;
+        }
+        a {
+            text-decoration: none;
+            color: var(--theme);
+        }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: white;
+        }
+        .motd-container {
+            width: 100%;
+            background-color: black;
+            border: 2px solid lime;
+            overflow: hidden;
+            white-space: nowrap;
+            box-sizing: border-box;
+        }
+        .motd-text {
+            display: inline-block;
+            color: white;
+            font-size: 20px;
+            animation: scrollText linear infinite;
+        }
+        @keyframes scrollText {
+            0% {
+                transform: translateX(100%);
             }
-            a{text-decoration:none;color:var(--theme)}
-        </style>
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+<body>
 
-  </head>
-  <body>
+    <!-- Message of the Day Scroller -->
+    <div class="motd-container">
+        <div class="motd-text">
+            Message of the Day: UNDER NEW MANAGMENT! Hello! CatMan here! Just letting yall know the chat feature will be closed. Tell your friends this exists. pwease
+        </div>
+    </div>
 
-    <marquee></marquee>
-
-
-      <center><img src="assets/img/logo.png" class="front" alt="epick made by Not Evaen Shoutsz, But now by Me" style="width:125px;height:125px;">
-       <b><h1 class="flick">PepsiNitro Games</center></h1></b>
-      <hr style="height:2px;border-width:0;color:blue;background-color:blue">
-      <center>
-
-
+    <!-- Existing content -->
+    <center><img src="assets/img/logo.png" class="front" alt="originally made by some guy, stolen from another, now it's me :D" style="width:125px;height:125px;margin-top:20px;">
+        <b><h1 class="flick">Cat-Nitro Games</h1></b>
+    </center>
+    
+    <hr style="height:2px;border-width:0;color:blue;background-color:blue">
+    <center>
         <a href="games/1v1lol/index.html">
 
             <b><p class="link">1v1lol</p></b>
@@ -531,68 +559,55 @@
       <a href="games/wallsmash/index.html">
           <b><p class="link">Wall Smash</p></b> 
       </a>
-</center>
-
-<div class="alert">
-    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-    <strong>New Management :3</strong> since the old guy changed the url, i made my own copy :D Have fun!
-</div>
-
-      <font color="blue">
-      <h1><p class="link"><center>Emulators/Others</center></p></h1></font>
-      <hr style="height:2px;border-width:0;color:blue;background-color:blue">
-
-    <center>
-        <a href="games/GBA/index.html">
-          <b><p class="link">GameBoy Adv Emulator</p></b>
-        </a>
-        
-          <a href="chat.html">
-            <b><p class="link">ChatRoom</p></b>
-          </a>
-
-          <a href="https://pepsinitro.github.io/2/">
-            <b><p class="link">PepsiNitro 2</p></b>
-          </a>
-        
     </center>
 
+    <!-- Alert and callout sections -->
+    <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        <strong>First Update :D</strong> Added: MOTD! Now, you can read the MOTD for news or info, please tell your friends we exist :D
+    </div>
+
     <div class="callout">
-        <div class="callout-header"><a href="https://www.youtube.com/watch?v=Jx_aaPIgz_c" class="img"><img src="assets/img/logo.png" alt="epick made by Evaen Shoutsz" style="width:45px;height:45px;"></a>WebApp!</div>
+        <div class="callout-header">
+            <a href="https://www.youtube.com/watch?v=Jx_aaPIgz_c" class="img">
+                <img src="assets/img/logo.png" alt="epick made by Evaen Shoutsz" style="width:45px;height:45px;">
+            </a>
+            WebApp!
+        </div>
         <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
         <div class="callout-container">
-          <b class="webApp">Download the website as a WebApp, just look at the top right of the search bar.</b>
+            <b class="webApp">Download the website as a WebApp, just look at the top right of the search bar.</b>
         </div>
-      </div>
+    </div>
 
     <script>
+        // MOTD Scroll Speed Adjustment
+        const motdText = document.querySelector('.motd-text');
+        const speed = 20; // Adjust scrolling speed here
+        const textLength = motdText.offsetWidth;
+        const containerWidth = document.querySelector('.motd-container').offsetWidth;
+        const duration = (textLength + containerWidth) / speed;
+        motdText.style.animationDuration = `${30}s`;
+
         // ServiceWorker Registration
-        if('serviceWorker' in navigator) {
+        if ('serviceWorker' in navigator) {
             window.addEventListener('load', function() {
                 navigator.serviceWorker.register('sw.js').then(function(registration) {
-                    // Registration was successful
                     console.log('ServiceWorker registration successful with scope: ', registration.scope);
-                    
-                    // Push API read subscription
                     registration.pushManager.getSubscription().then(function(sub) {
                         if (sub === null) {
-                            // Update UI to ask user to register for Push
                             console.log('Not subscribed to push service!');
                         } else {
-                            // We have a subscription, update the database
                             console.log('Subscription object: ', sub);
                             storeSubscription(sub);
                         }
                     });
-                    
                 }, function(err) {
-                    // registration failed :(
                     console.log('ServiceWorker registration failed: ', err);
                 });
             });
         }
     </script>
 
-<link rel="stylesheet" href="assets/css/css.css">
-  </body>
+</body>
 </html>
