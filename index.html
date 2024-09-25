@@ -56,7 +56,33 @@
         }
     </style>
 </head>
+
+<!-- Video Container -->
+<div id="videoModal" style="position:relative; z-index:1000; width:80%; border:4px solid lime; background-color:#121212; padding:20px; margin: 20px auto; box-shadow: 0 0 20px lime;">
+    <span class="closebtn" onclick="closeVideo()" style="cursor:pointer; color:white; font-size:24px; position:absolute; top:10px; right:20px;">&times;</span>
+    <video id="videoPlayer" controls style="width:100%;">
+        <source src="assets/vid/get-replaced.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+<!-- Alert and callout sections -->
+<div class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    <strong>First Update :D</strong> Added: MOTD! Now, you can read the MOTD for news or info, please tell your friends we exist :D
+</div>
+
+<script>
+    function closeVideo() {
+        var video = document.getElementById('videoPlayer');
+        video.pause();
+        document.getElementById('videoModal').style.display = 'none';
+    }
+</script>
+
+
 <body>
+    
 
     <!-- Message of the Day Scroller -->
     <div class="motd-container">
@@ -567,18 +593,6 @@
         <strong>First Update :D</strong> Added: MOTD! Now, you can read the MOTD for news or info, please tell your friends we exist :D
     </div>
 
-    <div class="callout">
-        <div class="callout-header">
-            <a href="https://www.youtube.com/watch?v=Jx_aaPIgz_c" class="img">
-                <img src="assets/img/logo.png" alt="epick made by Evaen Shoutsz" style="width:45px;height:45px;">
-            </a>
-            WebApp!
-        </div>
-        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-        <div class="callout-container">
-            <b class="webApp">Download the website as a WebApp, just look at the top right of the search bar.</b>
-        </div>
-    </div>
 
     <script>
         // MOTD Scroll Speed Adjustment
