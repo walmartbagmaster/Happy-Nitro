@@ -25,6 +25,43 @@
     <title>Cat Nitro | Chatroom</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
 </head>
+<style>
+    :root {
+        --theme: #000000;
+    }
+    a {
+        text-decoration: none;
+        color: var(--theme);
+    }
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #121212;
+        color: white;
+    }
+    .motd-container {
+        width: 100%;
+        background-color: black;
+        border: 2px solid lime;
+        overflow: hidden;
+        white-space: nowrap;
+        box-sizing: border-box;
+    }
+    .motd-text {
+        display: inline-block;
+        color: white;
+        font-size: 20px;
+        animation: scrollText linear infinite;
+    }
+    @keyframes scrollText {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+</style>
 
 <center><img src="assets/img/logo.png" alt="made by me" style="width:125px;height:125px;">
     <b><h1 class="flick">Cat-Nitro ChatRoom</center></h1></b>
@@ -34,7 +71,15 @@
    <center>
 
 
-<body>
+   </center> -->
+
+
+   <div class="alert">
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+      Down For Maintence While I <b>TRY</b> to fix it >:(
+  </div>
+
+<!--<body>
     <center>
         <div id="HCB_comment_box">
             <a href="http://www.htmlcommentbox.com">Widget</a> is loading comments...
@@ -51,13 +96,7 @@
                 if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);
             })();
         </script>
-    </center>
 
-
-<!-- <div class="alert">
-    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-    This may be down for a few days or forever. Thank the people with no common sense that can't write normal things.
-</div> -->
 
 
 <link rel="stylesheet" href="assets/css/css.css">
