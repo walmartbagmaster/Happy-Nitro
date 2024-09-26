@@ -118,6 +118,8 @@ var urlsToCache = [
     'games/helios',
     'games/houseofhazards',
     'games/pacman3d',
+    'assets\vid\shameful-human.mp4',
+    'anime-gurl.html',
     'games/timeshooter3swat',
     'games/Epic Tower Defense',
     'games/Ninja Dash',
