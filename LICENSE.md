@@ -1,5 +1,5 @@
 # Modified - MIT License
-
+-# (bestie booty bandit august)
 
 Version 01
 SPDX short identifier: C01-MIT
@@ -19,4 +19,4 @@ Selling access to this Software as is, or any other form of "Gate Keeping" in wh
 
 BY USING THIS SOFTWARE, DISTRIBUTING IT, OR ALLOWING IT TO BE PUBLICALLY ASCESSABLE WITHOUT DIRECT INFLU YOU AGREE TO THIS LICENSE.
 
-Breaching this contract in any way, shape, or form, allows the governing entity: "Cat-Nitro", or "Cat_Man6112" To rightfully seize 
+Breaching this contract in any way, shape, or form, allows the governing entity: "Cat-Nitro", or "Cat_Man6112" To rightfully seize any repository or file storage containing covered files.
