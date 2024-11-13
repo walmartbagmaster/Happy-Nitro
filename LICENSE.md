@@ -17,4 +17,6 @@ To modify this software or any files in a "Meanigful Way", you must have changed
 Selling access to this Software as is, or any other form of "Gate Keeping" in which the "Gate Keeper" gains a profit, is strictly forbidden. To distribute this software, you must have modified this Software in a "Meaningful Way", 
 
 
-BY USING THIS SOFTWARE, OR DISTRIBUTING IT, YOU AGREE TO THIS LICENSE.
+BY USING THIS SOFTWARE, DISTRIBUTING IT, OR ALLOWING IT TO BE PUBLICALLY ASCESSABLE WITHOUT DIRECT INFLU YOU AGREE TO THIS LICENSE.
+
+Breaching this contract in any way, shape, or form, allows the governing entity: "Cat-Nitro", or "Cat_Man6112" To rightfully seize 
